@@ -18,7 +18,7 @@ In the Comments section, you can:
 - Write comments related to the learning process.
 - Manage comments, which are also visible in the Learn section.
 
-## Installation
+## Installation without using Docker
 
 1. Clone the repository:
 
@@ -42,11 +42,31 @@ In the Comments section, you can:
 6. Open your browser and go to http://127.0.0.1:8000/.
 
 
+## Installation when using Docker
+
+1. Clone the repository:
+
+    git clone https://github.com/chrispl89/what_to_learn.git
+
+2. Go to the directory:
+   
+    cd what_to_learn
+
+3. Start Docker container
+
+    docker-compose up
+
+4. Open your browser and go to http://127.0.0.1:8000/.
+
+
 ## Technologies Used:
 Django
+
 Django Rest Framework
+
 HTML, CSS
 
+Docker
 
 ## Author
 Krzysztof Jaroński
